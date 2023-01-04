@@ -3,7 +3,9 @@
 -- fpm.package: meenukumari.com
 download-base-url: https://raw.githubusercontent.com/meenukumari28/meenukumari/main
 
--- fpm.dependency: fifthtry.github.io/dash-dash-ds as ds
+-- fpm.dependency: fifthtry.github.io/doc-site as ds
+-- fpm.dependency: fifthtry.github.io/resume
+-- fpm.dependency: fifthtry.github.io/caffeine-resume
 
 -- fpm.auto-import: ds
 -- fpm.auto-import: meenukumari.com/assets
