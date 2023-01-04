@@ -1,57 +1,113 @@
+-- import: fifthtry.github.io/caffeine-resume as caffeine
+-- import: fifthtry.github.io/resume as r
 -- import: meenukumari.com/assets
 
+-- r.resume john-doe: 
+
+-- john-doe.basic: Meenu Kumari
+label: FTD Developer
+email: meenukumariwork@gmail.com
+phone: +91 9798744002
+url: https://www.meenukumari.com
+maritalStatus: Single
+dateOfBirth: 17-12-1998
+summary: I’m a FTD stack web developer who can build apps from the ground up. I've worked mostly at startups so I am use to wearing many hats. I am a very product focussed developer who priotizes user feedback first and foremost. I'm generally very flexible when investigating new roles.
+image: $assets.files.static.avatar.jpeg
+
+-- john-doe.location: SVNS PG FOR LADIES
+postalCode: 560076
+city: Bangaluru
+countryCode: IN
+region: India
+
+-- john-doe.profile: Linked-in
+username: meenu-kumari-3275501b8
+url: https://www.linkedin.com/in/meenu-kumari-3275501b8/
+
+-- john-doe.work: FifthTry
+position: FTD Developer
+url: /
+startDate: Nov, 2022
+endDate: Present
+location: Bangalore
+summary: Tokenized is a Bitcoin wallet for issuing, managing and trading digital tokens. I built out the front end which was packaged as an electron app. It was a difficult frontend to build because we store the users keys locally and used them to sign transactions and contracts.
 
 
--- ds.page: Welcome to your [FPM site](https://fpm.dev/)
+-- john-doe.education: RTC INSTITUTE OF TECHNOLOGY
+url: /
+area: Computer Science
+studyType: Bachelor
+startDate: Aug-2019
+endDate: May-2022
+score: 9.0
 
-FPM Blank Package Template Repo
+-- john-doe.volunteer: College Fest
+position: Supervisor
+url: /
+startDate: Jan 2021 
+endDate: Jan 2021
+summary: Supervised two days event organised by college.
 
-🧑‍🚀 **Seasoned traveler?** update this file. Enjoy!
+-- john-doe.award: Website of the day
+date: Aug-2014
+awarder: Awwward
+summary: Received for my website domain.com and mauris sit amet mattis pharetra, purus ipsum commodo ex, a molestie metus augue sit amet justo.
 
+-- john-doe.certificate: React Js
+date: Jun-2017
+issuer: Udemy
+url: /
 
---- ds.image: doc-site
-src: $assets.files.doc-site-example.png
-width: fill
+-- john-doe.skill: Frontend
 
+--- keywords: HTML / JSX
+level: competent
 
---- ds.h1: 🚀 Project Structure
+--- keywords: SCSS / CSS 
+level: competent
 
-Inside of your FPM project, you'll see the following folders and files:
+--- keywords: Javascript / React
+level: competent
 
+-- john-doe.skill: Backend
 
---- ds.code:
-lang:
-
-/
-├── .build/
-│   └── index.html
-├── .packages/
-│   └── fifthtry.github.io/
-│   	└── All downloaded dependencies
-│   	
-├── FPM.ftd
-├── index.ftd
-└── README.md
-
-
-
---- ds.h1: 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
---- ds.code:
-lang:
-
-=======================================================================
-| Command                | Action                                     |
-| :--------------------- | :----------------------------------------- |
-| fpm build              | FPM builder installs all `FPM` dependencies|
-| fpm serve              | Starts local dev server at available port  |
-|                        | `localhost:8000`                           |
-=======================================================================
+--- keywords: Node
+level: competent
 
 
---- ds.h1: 👀 Want to learn more?
+-- john-doe.language: English
+fluency: expert
 
-Feel free to check [our documentation](https://fpm.dev/) or jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- john-doe.language: Hindi
+fluency: expert
 
+
+-- john-doe.interest: Reading
+keyword: Book
+
+
+-- john-doe.project: Social-App
+description: I have made this project using react and node. In this project user first have to login themself using their email id and password after login they will redirect to home page where they can see their friends post also they can like and comment on their posts. 
+keyword: Node JS, React
+startDate: Jan 2021
+endDate: Jan 2022
+url: /
+role: Creator
+type: Mobile Application
+
+
+-- john-doe.reference: Ganesh Salunke
+reference: Ganesh is a senior frontend developer at FifthTry.
+phone-no: 9987915037
+email-id: ganesh@fifthtry.com
+position: Senior Frontend Developer
+company: FifthTry Pvt. Ltd.
+
+
+
+-- ds.page:
+widthfill: true
+
+
+-- caffeine.show-resume:
+resume: $john-doe
