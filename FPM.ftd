@@ -5,7 +5,31 @@ download-base-url: https://raw.githubusercontent.com/meenukumari28/meenukumari/m
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
 -- fpm.dependency: fifthtry.github.io/resume
+-- fpm.dependency: fifthtry.github.io/texty-ps
 -- fpm.dependency: fifthtry.github.io/caffeine-resume
 
 -- fpm.auto-import: ds
+-- fpm.auto-import: ps
 -- fpm.auto-import: meenukumari.com/assets 
+
+-- fpm.sitemap:
+
+# Home: /index.html
+
+# Resume: /resume/
+
+# Contact: /contact/
+
+
+- email :
+  - meenukumariwork@gmail: 
+  url: https://meenukumariwork@gmail.com/
+
+- Social Media:
+  - GitHub 
+  url: https://github.com/MeenuKumari17
+  - LinkedIN
+  url: https://www.linkedin.com/company/fifthtry/
+  - Discord
+  url: https://discord.gg/meenu
+

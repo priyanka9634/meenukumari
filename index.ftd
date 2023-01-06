@@ -1,113 +1,16 @@
--- import: fifthtry.github.io/caffeine-resume as caffeine
--- import: fifthtry.github.io/resume as r
+-- import: fpm
 -- import: meenukumari.com/assets
+-- import: fifthtry.github.io/texty-ps as ps
 
--- r.resume john-doe:
+-- ps.page: Meenu Kumari
+avatar: $assets.files.static.avatar.jpeg
+contact-txt: Contact
+contact-url: /contact/
+id: page-id 
 
--- john-doe.basic: Meenu Kumari
-label: FTD Developer
-email: meenukumariwork@gmail.com
-phone: +91 9798744002
-url: https://www.meenukumari.com
-maritalStatus: Single
-dateOfBirth: 17-12-1998
-summary: I’m a FTD stack web developer who can build apps from the ground up. I've worked mostly at startups so I am use to wearing many hats. I am a very product focussed developer who priotizes user feedback first and foremost. I'm generally very flexible when investigating new roles.
-image: $assets.files.static.avatar.jpeg
+-- ps.h3: Skills 
 
--- john-doe.location: SVNS PG FOR LADIES
-postalCode: 560076
-city: Bangaluru
-countryCode: IN
-region: India
-
--- john-doe.profile: Linked-in
-username: meenu-kumari-3275501b8
-url: https://www.linkedin.com/in/meenu-kumari-3275501b8/
-
--- john-doe.work: FifthTry
-position: FTD Developer
-url: /
-startDate: Nov, 2022
-endDate: Present
-location: Bangalore
-summary: Reusable components, themes, templates
-
-
--- john-doe.education: RTC INSTITUTE OF TECHNOLOGY
-url: /
-area: Computer Science
-studyType: Bachelor
-startDate: Aug-2019
-endDate: May-2022
-score: 9.0
-
--- john-doe.volunteer: College Fest
-position: Supervisor
-url: /
-startDate: Jan 2021 
-endDate: Jan 2021
-summary: Supervised two days event organised by college.
-
--- john-doe.award: Website of the day
-date: Aug-2014
-awarder: Awwward
-summary: Received for my website domain.com and mauris sit amet mattis pharetra, purus ipsum commodo ex, a molestie metus augue sit amet justo.
-
--- john-doe.certificate: React Js
-date: Jun-2017
-issuer: Udemy
-url: /
-
--- john-doe.skill: Frontend
-
---- keywords: HTML / JSX
-level: competent
-
---- keywords: SCSS / CSS 
-level: competent
-
---- keywords: Javascript / React
-level: competent
-
--- john-doe.skill: Backend
-
---- keywords: Node
-level: competent
-
-
--- john-doe.language: English
-fluency: expert
-
--- john-doe.language: Hindi
-fluency: expert
-
-
--- john-doe.interest: Reading
-keyword: Book
-
-
--- john-doe.project: Social-App
-description: I have made this project using react and node. In this project user first have to login themself using their email id and password after login they will redirect to home page where they can see their friends post also they can like and comment on their posts. 
-keyword: Node JS, React
-startDate: Jan 2021
-endDate: Jan 2022
-url: /
-role: Creator
-type: Mobile Application
-
-
--- john-doe.reference: Ganesh Salunke
-reference: Ganesh is a senior frontend developer at FifthTry.
-phone-no: 9987915037
-email-id: ganesh@fifthtry.com
-position: Senior Frontend Developer
-company: FifthTry Pvt. Ltd.
-
-
-
--- ds.page:
-widthfill: true
-
-
--- caffeine.show-resume:
-resume: $john-doe
+- Go, Lua, Haskell, C, Rust and other languages:
+- Docker (deployment, development & more):
+- Mashups of data:
+- Kubernetes:
